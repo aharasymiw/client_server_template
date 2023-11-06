@@ -23,7 +23,6 @@ function makePostCall() {
         description: 'thing description',
     };
 
-
     axios({
         method: 'POST',
         url: '/thing',
