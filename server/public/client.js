@@ -19,8 +19,7 @@ function makeGetCall() {
 
 function makePostCall() {
     let newThing = {
-        name: 'thing name',
-        description: 'thing description',
+        thingDescription: `thing ${Math.floor(Math.random() * 100)}`,
     };
 
     axios({
