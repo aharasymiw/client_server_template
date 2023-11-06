@@ -1,7 +1,7 @@
 console.log("js works!");
 
 function makeGetCall() {
-    $.ajax({
+    axios({
         method: 'GET',
         url: '/thing',
     }).then(
@@ -24,7 +24,7 @@ function makePostCall() {
     };
 
 
-    $.ajax({
+    axios({
         method: 'POST',
         url: '/thing',
         data: newThing
